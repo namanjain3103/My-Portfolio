@@ -134,7 +134,8 @@
 .blogimg {
  
   width: 100%;
-  padding: 30px;
+  padding: auto;
+  
 }
 
 /* Add a card effect for articles */
@@ -158,3 +159,4 @@
     padding: 0;
   }
 }
+
