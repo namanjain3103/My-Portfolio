@@ -113,7 +113,29 @@
   color: white;
   font: italic 20px "Fira Sans", serif;
   padding: 4%;
-  
+}
+
+
+
+.image_about2 {
+  flex-basis: 100%;
+  width: 270px;
+  border-radius: 270px;
+  cursor: pointer;            
+  margin: auto;
+  padding-bottom: 2%;
+
+}
+
+.text_about2 {
+  color: white;
+  font: italic 20px "Fira Sans", serif;
+  cursor: pointer;
+  overflow: hidden;
+  display: center;
+  text-align: center;
+  margin: auto;
+  padding: 2%;
 }
 
 
@@ -159,4 +181,3 @@
     padding: 0;
   }
 }
-
