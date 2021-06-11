@@ -1,143 +1,183 @@
-<!DOCTYPE html>
-<html>
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color:#313444;
+}
+   
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge ,chrome=1">
-    <link rel="icon" href="img/favicon.png">
-    <meta name="keywords" Naman Jain>
-    <title>Naman Jain</title>
-    <meta name="description" content="Naman Jain">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+#mySidenav a:hover {
+  left: 0;
+}
 
-</head>
+#about {
+  top: 220px;
+  background-color: #04AA6D;
 
-<body>
-    <section class="parallax">
-        <div class="text-block">
-            <b style="background-color: transparent;"> Naman </b><b class="r_color">Jain</b>
-        </div>
-    </section>
-    <div id="mySidenav" class="sidenav">
-        <a href="#" id="about">About </a>
-        <a href="#" id="projects">Projects </a>
-        <a href="#" id="blog">Blog </a>
-        <a href="#" id="contact">Contact </a>
-    </div>
+}
 
-    <section>
-        <div id="mySideimg" class="sideimg">
-            <a id="abouts"> <img src="img/nj.jpg" alt="Snow" style="width:280px;"> </a>
-        </div>
-        <h2 class="p_text1"> <b> About </b><b class="r_color">Me</b></h2>
-        <div style="margin-left:22px;">
-            <div class="text_about">
-                <h1>
-                    I am Naman Jain. I am currently in second year, pursuing B.Tech in computer science and Engineering.
-                    I am from Bharati Vidyapeeth’s College of Engineering.I am the Co-founder and lead at TechShuttle.
-                    Familiar with C/C++, Python, HTML, CSS. My technical interests include: Competitive Programming, Web
-                    Development, Graphic designing and Open Source Contributions.
+#projects {
+  top: 280px;
+  background-color: #f44336;
+  
+}
 
-                </h1>
-            </div>
-        </div>
-    </section>
-
-    <section class="parallax" style="min-height: 600px; ">
-    </section>
+#blog {
+  top: 340px;
+  background-color: #2196F3;
+}
 
 
-    <section>
-        <h2 class="p_text1" style="color: white;"> <b> Blog </h2>
-        <div class="row">
-            <div class="leftcolumn">
-                <div class="card">
-                    <h2 style="color:#04AA6D;">Facebook Messenger is Getting Updated With New Themes, Quick Reply Bar, More</h2>
-                    <h5 style="color: white;">By Satvik Khare | June 11, 2021</h5>
-                    <div class="blogimg"><img src="img/fb.png" alt="Snow" style="width:270px;"></div>
-                    <p> <br>
-                        Facebook Messenger is getting three new features in an update for its mobile app. The new
-                        features include three new chat themes, a quick reply bar, along with QR code scanning and
-                        payment links. The update will be rolled out for its Android and iOS apps. The social media
-                        giant mentioned that the QR code and payment links option is rolling out for users of the app in
-                        the US as of now. The new themes will be available on both Messenger and Instagram.
+#contact {
+  top: 400px;
+  background-color: #555;
+}
 
-                    </p>
-                    <p>The update for Messenger was announced on Facebook's blog on June 10. The update for the
-                        messaging app brings three new themes in celebration Olivia Rodrigo, Fast & Furious 9 (F9), and
-                        World Oceans Day. The theme for Olivia Rodrigo marks her debut album, Sour, that was released on
-                        May 21. The F9 theme has been released to celebrate 20 years of the Fast and Furious franchise.
-                        The theme for World Oceans Day - celebrated on June 8 - apparently lets you virtually explore
-                        the oceans around the world while also promoting sustainability..</p>
-                </div>
+.parallax {
+  /* The image used */
+  background-image: url("img/bg.png");
 
-                <div class="card">
-                    <h2 style="color: #2196F3;">Facebook Messenger is Getting Updated With New Themes, Quick Reply Bar, More</h2>
-                    <h5 style="color: white;">By Satvik Khare | June 11, 2021</h5>
-                    <div class="blogimg"><img src="img/fb.png" alt="Snow" style="width:270px;"></div>
-                    <p> <br>
-                        Facebook Messenger is getting three new features in an update for its mobile app. The new
-                        features include three new chat themes, a quick reply bar, along with QR code scanning and
-                        payment links. The update will be rolled out for its Android and iOS apps. The social media
-                        giant mentioned that the QR code and payment links option is rolling out for users of the app in
-                        the US as of now. The new themes will be available on both Messenger and Instagram.
+  /* Set a specific height */
+  min-height: 700px; 
 
-                    </p>
-                    <p>The update for Messenger was announced on Facebook's blog on June 10. The update for the
-                        messaging app brings three new themes in celebration Olivia Rodrigo, Fast & Furious 9 (F9), and
-                        World Oceans Day. The theme for Olivia Rodrigo marks her debut album, Sour, that was released on
-                        May 21. The F9 theme has been released to celebrate 20 years of the Fast and Furious franchise.
-                        The theme for World Oceans Day - celebrated on June 8 - apparently lets you virtually explore
-                        the oceans around the world while also promoting sustainability..</p>
-                </div>
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
 
-            </div>
+  .text-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 80px;
+    overflow: hidden;
+  }
 
-            <div class="rightcolumn">
-                <div class="card">
-                    <h2 style="color: #f44336;">Facebook Messenger is Getting Updated With New Themes, Quick Reply Bar, More</h2>
-                    <h5 style="color: white;">By Satvik Khare | June 11, 2021</h5>
-                    <div class="blogimg"><img src="img/fb.png" alt="Snow" style="width:270px;"></div>
-                    <p> <br>
-                        Facebook Messenger is getting three new features in an update for its mobile app. The new
-                        features include three new chat themes, a quick reply bar, along with QR code scanning and
-                        payment links. The update will be rolled out for its Android and iOS apps. The social media
-                        giant mentioned that the QR code and payment links option is rolling out for users of the app in
-                        the US as of now. The new themes will be available on both Messenger and Instagram.
+  .r_color {
+    color: #000300;
+    background-color: transparent;
+  }
 
-                        </p>
-                    <p>The update for Messenger was announced on Facebook's blog on June 10. The update for the
-                        messaging app brings three new themes in celebration Olivia Rodrigo, Fast & Furious 9 (F9), and
-                        World Oceans Day. The theme for Olivia Rodrigo marks her debut album, Sour, that was released on
-                        May 21. The F9 theme has been released to celebrate 20 years of the Fast and Furious franchise.
-                        The theme for World Oceans Day - celebrated on June 8 - apparently lets you virtually explore
-                        the oceans around the world while also promoting sustainability..</p>
-                </div>
-                <div class="card">
-                    <h2 style="color: #555;">Facebook Messenger is Getting Updated With New Themes, Quick Reply Bar, More</h2>
-                    <h5 style="color: white;">By Satvik Khare | June 11, 2021</h5>
-                    <div class="blogimg"><img src="img/fb.png" alt="Snow" style="width:270px;"></div>
-                    <p> <br>
-                        Facebook Messenger is getting three new features in an update for its mobile app. The new
-                        features include three new chat themes, a quick reply bar, along with QR code scanning and
-                        payment links. The update will be rolled out for its Android and iOS apps. The social media
-                        giant mentioned that the QR code and payment links option is rolling out for users of the app in
-                        the US as of now. The new themes will be available on both Messenger and Instagram.
+  .image_about {
+    flex-basis: 100%;
+    width: 280px;
+    border-radius: 30px;
+    cursor: pointer;            
+    padding: 10px;
+ 
+}
 
-                        </p>
-                    <p>The update for Messenger was announced on Facebook's blog on June 10. The update for the
-                        messaging app brings three new themes in celebration Olivia Rodrigo, Fast & Furious 9 (F9), and
-                        World Oceans Day. The theme for Olivia Rodrigo marks her debut album, Sour, that was released on
-                        May 21. The F9 theme has been released to celebrate 20 years of the Fast and Furious franchise.
-                        The theme for World Oceans Day - celebrated on June 8 - apparently lets you virtually explore
-                        the oceans around the world while also promoting sustainability..</p>
-                </div>
-            </div>
 
-        </div>
-    </section>
+#mySideimg a {
+  position: absolute;
+  left: -260px;
+  transition: 0.3s;
+  padding-top: 0px;
+  width: 100px;
+  text-decoration: none;
+}
 
-</body>
+#mySideimg a:hover {
+  left: 0;
+}
 
-</html>
+.p_text1{
+  font-size: 65px;
+  color: FFFEFF;
+  cursor: pointer;
+  overflow: hidden;
+  display: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 4%;
+
+}
+
+.text_about {
+  color: white;
+  font: italic 20px "Fira Sans", serif;
+  padding: 4%;
+}
+
+
+
+.image_about2 {
+  flex-basis: 100%;
+  width: 270px;
+  border-radius: 270px;
+  cursor: pointer;            
+  margin: auto;
+  padding-bottom: 2%;
+
+}
+
+.text_about2 {
+  color: white;
+  font: italic 20px "Fira Sans", serif;
+  cursor: pointer;
+  overflow: hidden;
+  display: center;
+  text-align: center;
+  margin: auto;
+  padding: 2%;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 50%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 50%;
+  padding-left: 30px;
+}
+
+.blogimg {
+ 
+  width: 100%;
+  padding: auto;
+  
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color:#313444;
+   padding: 30px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
