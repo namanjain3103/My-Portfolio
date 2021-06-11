@@ -21,25 +21,25 @@
   left: 0;
 }
 
-#about {
+#aboutn {
   top: 220px;
   background-color: #04AA6D;
 
 }
 
-#projects {
+#projectsn {
   top: 280px;
   background-color: #f44336;
   
 }
 
-#blog {
+#blogn {
   top: 340px;
   background-color: #2196F3;
 }
 
 
-#contact {
+#contactn {
   top: 400px;
   background-color: #555;
 }
