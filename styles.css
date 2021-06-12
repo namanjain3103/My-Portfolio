@@ -13,12 +13,13 @@ body {
 
 #mySidenav a {
   position: absolute;
-  left: -80px;
+  left: -84px;
   transition: 0.3s;
   padding: 15px;
-  width: 100px;
+  padding-inline:2px;
+  width: 110px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   color: white;
   border-radius: 0 5px 5px 0;
 }
@@ -76,7 +77,7 @@ body {
   }
 
   .r_color {
-    color: #000300;
+    color: #FF3131;
     background-color: transparent;
   }
 
@@ -196,3 +197,41 @@ body {
 }
 
 
+#mySidefooter a {
+  position: absolute;
+  left: -110px;
+  transition: 0.3s;
+  padding: 12px;
+  padding-inline: 5px;
+  width: 130px;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#mySidefooter a:hover {
+  left: 0;
+}
+
+#linkedin {
+  margin-top: 20px;
+  background-color: #2867B2;
+}
+
+#insta {
+  margin-top: 70px;
+  background-color: rgb(225, 48, 108);
+}
+
+#fb {
+  margin-top: 120px;
+  background-color: #4267B2;
+
+}
+
+#twitter {
+  margin-top: 170px;
+  background-color: #1DA1F2;
+  
+}
