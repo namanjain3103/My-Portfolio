@@ -12,10 +12,10 @@ body {
 
 #mySidenav a {
   position: absolute;
-  left: -95px;
+  left: -90px;
   transition: 0.3s;
   padding: 10px;
-  padding-inline:2px;
+  padding-inline:4px;
   width: 120px;
   text-decoration: none;
   font-size: 20px;
@@ -196,12 +196,24 @@ body {
 }
 
 
+.text_about3 {
+  color: #f44336;
+  font: italic 22px "Fira Sans", serif;
+  overflow: hidden;
+  display: center;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 1%;
+  
+}
+
+
 #mySidefooter a {
   position: absolute;
-  left: -100px;
+  left: -97px;
   transition: 0.3s;
   padding: 12px;
-  padding-inline: 2px;
+  padding-inline: 4px;
   width: 120px;
   text-decoration: none;
   font-size: 16px;
