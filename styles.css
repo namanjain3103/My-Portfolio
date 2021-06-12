@@ -203,8 +203,17 @@ body {
   display: center;
   text-align: center;
   margin: auto;
-  padding-bottom: 1%;
+  padding-bottom: 0%;
   
+}
+
+.image_about3 {
+  flex-basis: 100%;
+  width: 160px;
+  cursor: pointer;            
+  margin: auto;
+  padding-bottom: 0%;
+
 }
 
 
@@ -226,23 +235,23 @@ body {
 }
 
 #linkedin {
-  margin-top: 20px;
+  margin-top: 10px;
   background-color: #2867B2;
 }
 
 #insta {
-  margin-top: 70px;
+  margin-top: 60px;
   background-color: rgb(225, 48, 108);
 }
 
 #fb {
-  margin-top: 120px;
+  margin-top: 110px;
   background-color: #4267B2;
 
 }
 
 #twitter {
-  margin-top: 170px;
+  margin-top: 160px;
   background-color: #1DA1F2;
   
 }
