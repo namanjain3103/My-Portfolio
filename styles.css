@@ -12,11 +12,11 @@ body {
 
 #mySidenav a {
   position: absolute;
-  left: -84px;
+  left: -95px;
   transition: 0.3s;
   padding: 10px;
   padding-inline:2px;
-  width: 110px;
+  width: 120px;
   text-decoration: none;
   font-size: 20px;
   color: white;
@@ -198,11 +198,11 @@ body {
 
 #mySidefooter a {
   position: absolute;
-  left: -110px;
+  left: -100px;
   transition: 0.3s;
   padding: 12px;
-  padding-inline: 5px;
-  width: 130px;
+  padding-inline: 2px;
+  width: 120px;
   text-decoration: none;
   font-size: 16px;
   color: white;
