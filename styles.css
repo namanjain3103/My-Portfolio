@@ -11,6 +11,8 @@ body {
   text-align: center;
 }
 
+/*--Nav Bar--*/
+
 #mySidenav a {
   position: absolute;
   left: -90px;
@@ -51,6 +53,9 @@ body {
   background-color: #555;
 }
 
+
+/*--Parallax--*/
+
 .parallax {
   /* The image used */
   background-image: url("img/bg3.png");
@@ -62,7 +67,14 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;}
+  background-size: cover;
+}
+.r_color {
+  color: #FF3131;
+  background-color: transparent;
+}
+ 
+/*--Parallax + Name--*/
 
   .text-block {
     position: absolute;
@@ -76,10 +88,7 @@ body {
     overflow: hidden;
   }
 
-  .r_color {
-    color: #FF3131;
-    background-color: transparent;
-  }
+/*--Image About--*/
 
   .image_about {
     flex-basis: 100%;
@@ -90,8 +99,6 @@ body {
     
  
 }
-
-
 #mySideimg a {
   position: absolute;
   left: -255px;
@@ -104,7 +111,6 @@ body {
 #mySideimg a:hover {
   left: 0;
 }
-
 .p_text1{
   font-size: 55px;
   color: FFFEFF;
@@ -116,13 +122,10 @@ body {
   margin-top: 4%;
 
 }
-
 .text_about {
   color: white;
   font: italic 20px "Fira Sans", serif;
-  padding: 4%;
-  
-  
+  padding: 4%;  
 }
 
 .p_text2{
