@@ -1,12 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Roboto:300,400,500,700,900&amp;display=swap");
+
 *{
+  
   box-sizing: border-box;
+  
   margin: 0;
   padding: 0;
   background-color:#1A1A1D;
 }
 
-body {
-  font-family:Georgia, 'Times New Roman', Times, serif;
+html, body {
+  font-family: 'Poppins', sans-serif;
   height: 100 ;
   text-align: center;
 }
@@ -33,24 +37,28 @@ body {
 #aboutn {
   top: 220px;
   background-color: #c3073f;
+  font-family:Georgia;
 
 }
 
 #blogn {
   top: 280px;
   background-color: #c3073f;
+  font-family:Georgia;
   
 }
 
 #projectsn {
   top: 340px;
-  background-color: #c3073f;;
+  background-color: #c3073f;
+  font-family:Georgia;
 }
 
 
 #contactn {
   top: 400px;
-  background-color: #c3073f;;
+  background-color: #c3073f;
+  font-family:Georgia;
 }
 
 
@@ -106,6 +114,7 @@ body {
   padding-top: 0px;
   width: 100px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 #mySideimg a:hover {
@@ -119,12 +128,12 @@ body {
   display: center;
   text-align: center;
   margin: auto;
-  margin-top: 4%;
+  margin-top: 40px;
 
 }
 .text_about {
   color: #6F2232;
-  font:20px "Open Sans";
+  font:30px ;
   padding: 4%;  
 }
 
@@ -149,11 +158,12 @@ body {
 
 .text_about2 {
   color: white;
-  font: 16px "Fira Sans", serif;
+  font: 16px ;
   overflow: hidden;
   display: center;
   text-align: center;
   margin: auto;
+  padding-top: 0.5%;
   padding-bottom: 1%;
   
 }
@@ -206,7 +216,7 @@ body {
 
 .text_about3 {
   color: #c3073f;
-  font: 22px "Fira Sans", serif;
+  font: 55px ;
   overflow: hidden;
   display: center;
   text-align: center;
@@ -227,11 +237,11 @@ body {
 
 #mySidefooter a {
   position: absolute;
-  left: -97px;
+  left: -80px;
   transition: 0.3s;
   padding: 12px;
   padding-inline: 4px;
-  width: 120px;
+  width: 100px;
   text-decoration: none;
   font-size: 16px;
   color: white;
@@ -245,22 +255,26 @@ body {
 #linkedin {
   margin-top: 10px;
   background-color: #2867B2;
+  font-family:Georgia;
 }
 
 #insta {
   margin-top: 60px;
   background-color: rgb(225, 48, 108);
+  font-family:Georgia;
 }
 
 #fb {
   margin-top: 110px;
   background-color: #4267B2;
+  font-family:Georgia;
 
 }
 
 #twitter {
   margin-top: 160px;
   background-color: #1DA1F2;
+  font-family:Georgia;
   
 }
 
