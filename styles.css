@@ -291,11 +291,11 @@ html, body {
 
 #mySidefooter a {
   position: absolute;
-  left: -78px;
+  left: -90px;
   transition: 0.3s;
   padding: 10px;
   padding-inline: 4px;
-  width: 100px;
+  width: 118px;
   text-decoration: none;
   font-size: 16px;
   color: white;
