@@ -3,7 +3,6 @@
 *{
   
   box-sizing: border-box;
-  
   margin: 0;
   padding: 0;
   background-color:#1A1A1D;
@@ -75,7 +74,7 @@ html, body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
 }
 .r_color {
   color: #c3073f;
@@ -86,40 +85,62 @@ html, body {
 
   .text-block {
     position: absolute;
-    top: 50%;
+    top: 330px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    background-color: transparent;
     cursor: pointer;
-    font-size: 70px;
+    font-size: 60px;
     overflow: hidden;
+    background-color: transparent;
+    line-height: 60px;
+    
   }
+
+
+  .typewriter {
+    font-family: Courier, monospace;
+	  display: inline-block;
+    background-color: transparent;  
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	  animation: typing 5s steps(18, end), blink .75s step-end infinite;
+    white-space:nowrap;
+    font-size: 25px;
+    background-color: transparent;
+    font-weight: 700;
+    border-right: 4px solid #c3073f;
+    box-sizing: border-box;   
+}
+
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: #c3073f; 
+    }
+} 
+
+
 
 /*--Image About--*/
 
-  .image_about {
-    flex-basis: 100%;
-    width: 280px;
-    border-radius: 30px;
-    cursor: pointer;            
-    padding: 10px;
-    
- 
-}
-#mySideimg a {
-  position: absolute;
-  left: -255px;
-  transition: 0.3s;
-  padding-top: 0px;
-  width: 100px;
-  text-decoration: none;
-  cursor: pointer;
-}
 
-#mySideimg a:hover {
-  left: 0;
-}
 .p_text1{
   font-size: 55px;
   color: FFFEFF;
@@ -137,6 +158,38 @@ html, body {
   padding: 4%;  
 }
 
+
+.image{
+  height: 25vw;
+  width: 25vw;
+  float: left;
+  margin: 7.5vw;
+  margin-top: 4.5vw;
+}
+
+.name{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 370;
+  font-size: 4.5vw;
+  margin: 0px;
+  line-height: 4.5vw;
+  padding-top: 12vw;
+  padding-bottom: 0vw;
+  color: #4E4E50;
+  background: transparent;
+}
+
+.introduction{
+  display: inline;
+  float: left;
+  width: 55vw;
+  text-align: center;
+  height: fit-content;
+ 
+  
+}
+
+
 .p_text2{
   font-size:55px;
   color: FFFEFF;
@@ -145,6 +198,7 @@ html, body {
   text-align: center;
   margin: auto;
   margin-top:2%;
+  color: #4E4E50;
 }
 
 .image_about2 {
@@ -237,9 +291,9 @@ html, body {
 
 #mySidefooter a {
   position: absolute;
-  left: -80px;
+  left: -78px;
   transition: 0.3s;
-  padding: 12px;
+  padding: 10px;
   padding-inline: 4px;
   width: 100px;
   text-decoration: none;
@@ -296,3 +350,40 @@ button {
 button:hover {
   background-color: black;
 }
+
+
+@media screen and (max-width: 900px) {
+  
+  .text-block {     
+    margin-left: 20px;
+    }
+
+  .image{
+      width: 70vw;
+      height: 70vw;
+      margin: 8vw 13vw 0vw 15vw;
+      padding-bottom: 0vw;
+  }
+  .name{
+      font-size: 40px;
+      line-height: 42px;
+      margin: 0vw;
+      padding-top: 3vw;
+      font-weight: 500; 
+  }
+  .introduction{
+      height: fit-content;
+      margin: 0vw;
+      padding: 0vw;
+      width: 98vw;
+      text-align: center;   
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .typewriter-text {     
+  font-size: 20px;
+  }
+}
+
