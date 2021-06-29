@@ -98,23 +98,21 @@ html, body {
   }
 
 
-  .typewriter {
-    font-family: Courier, monospace;
-	  display: inline-block;
-    background-color: transparent;  
-}
 
-.typewriter-text {
-    display: inline-block;
+  .typewriter-text {
+ 
   	overflow: hidden;
+    font-family: Courier, monospace;
   	letter-spacing: 2px;
- 	  animation: typing 5s steps(18, end), blink .75s step-end infinite;
+ 	  animation: typing 4s steps(18, end) 1.5s normal both, blink .75s step-end infinite;
     white-space:nowrap;
     font-size: 25px;
     background-color: transparent;
     font-weight: 700;
-    border-right: 4px solid #c3073f;
-    box-sizing: border-box;   
+    border-right: 4px solid ;
+    margin: 0 auto;
+    
+ 
 }
 
 
@@ -135,6 +133,10 @@ html, body {
         border-color: #c3073f; 
     }
 } 
+ 
+
+
+
 
 
 
@@ -191,13 +193,13 @@ html, body {
 
 
 .p_text2{
-  font-size:55px;
+  font-size:50px;
   color: FFFEFF;
   overflow: hidden;
   display: center;
   text-align: center;
   margin: auto;
-  margin-top:2%;
+  margin-top:1%;
   color: #4E4E50;
 }
 
@@ -212,7 +214,7 @@ html, body {
 
 .text_about2 {
   color: white;
-  font: 16px ;
+  font: 3px ;
   overflow: hidden;
   display: center;
   text-align: center;
@@ -220,6 +222,16 @@ html, body {
   padding-top: 0.5%;
   padding-bottom: 1%;
   
+}
+
+.p_text3{
+  font-size:40px;
+  color: FFFEFF;
+  overflow: hidden;
+  display: center;
+  text-align: center;
+  margin: auto;
+  color: #4E4E50;
 }
 
 
@@ -288,8 +300,20 @@ html, body {
 
 }
 
+.icon{
+  margin: 10px 0px 0px 0px;
+  width: 97vw;
 
-#mySidefooter a {
+}
+
+.icon a {
+  transition: all 0.3 ease 0s;
+}
+
+.icon a:hover {
+  background-color: #4E4E50;
+}
+/*#mySidefooter a {
   position: absolute;
   left: -90px;
   transition: 0.3s;
@@ -330,7 +354,7 @@ html, body {
   background-color: #1DA1F2;
   font-family:Georgia;
   
-}
+}*/
 
 button {
   
@@ -348,9 +372,8 @@ button {
   font-size: 100%;
 }
 button:hover {
-  background-color: black;
+  background-color: #4E4E50;
 }
-
 
 @media screen and (max-width: 900px) {
   
@@ -387,3 +410,8 @@ button:hover {
   }
 }
 
+
+
+
+
+ 
