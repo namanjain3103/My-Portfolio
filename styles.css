@@ -6,12 +6,15 @@
   margin: 0;
   padding: 0;
   background-color:#1A1A1D;
+  
+
 }
 
 html, body {
   font-family: 'Poppins', sans-serif;
   height: 100 ;
   text-align: center;
+  overflow-x: hidden;
 }
 
 /*--Nav Bar--*/
@@ -137,14 +140,11 @@ html, body {
 
 
 
-
-
-
 /*--Image About--*/
 
 
 .p_text1{
-  font-size: 55px;
+  font-size: 60px;
   color: FFFEFF;
   cursor: pointer;
   overflow: hidden;
@@ -192,47 +192,7 @@ html, body {
 }
 
 
-.p_text2{
-  font-size:50px;
-  color: FFFEFF;
-  overflow: hidden;
-  display: center;
-  text-align: center;
-  margin: auto;
-  margin-top:1%;
-  color: #4E4E50;
-}
 
-.image_about2 {
-  flex-basis: 100%;
-  width: 230px;
-  cursor: pointer;            
-  margin: auto;
-  padding-bottom: 1%;
-
-}
-
-.text_about2 {
-  color: white;
-  font: 3px ;
-  overflow: hidden;
-  display: center;
-  text-align: center;
-  margin: auto;
-  padding-top: 0.5%;
-  padding-bottom: 1%;
-  
-}
-
-.p_text3{
-  font-size:40px;
-  color: FFFEFF;
-  overflow: hidden;
-  display: center;
-  text-align: center;
-  margin: auto;
-  color: #4E4E50;
-}
 
 
 /* Create two unequal columns that floats next to each other */
@@ -280,25 +240,71 @@ html, body {
 }
 
 
+
 .text_about3 {
-  color: #c3073f;
-  font: 55px ;
+  
+  color: #950740;
+  font-size: 30px;
   overflow: hidden;
-  display: center;
   text-align: center;
-  margin: auto;
+  margin: auto auto;
+  margin-top: 2vw;
   padding-bottom: 0%;
   
 }
 
-.image_about3 {
-  flex-basis: 100%;
-  width: 160px;
-  cursor: pointer;            
+.p_text2{
+  font-size:60px;
+  color: FFFEFF;
+  overflow: hidden;
+  display: center;
+  text-align: center;
   margin: auto;
-  padding-bottom: 0%;
+  margin-top:1%;
+  color: #4E4E50;
+}
+
+.projectText{
+  color: #4E4E50;
+  font-size: 18px;
+  text-align:center;
+  margin-bottom: 1vw;
+  padding-inline: 2%;
+}
+
+.projectIcon{
+  transition: .2s;
+  width:55px;
+  background: transparent;
+  margin-inline: 10px ;
 
 }
+
+.projectIcon:hover {
+  
+  transform: scale(1.4);
+  
+}
+
+hr {
+
+  width:40px; 
+  text-align:center; 
+  margin: 0 auto;
+  border: 1px solid #6F2232;
+}
+
+.p_text3{
+  font-size:40px;
+  color: FFFEFF;
+  overflow: hidden;
+  display: center;
+  text-align: center;
+  margin: auto;
+  color: #4E4E50;
+}
+
+
 
 .icon{
   margin: 10px 0px 0px 0px;
@@ -306,14 +312,43 @@ html, body {
 
 }
 
-.icon a {
-  transition: all 0.3 ease 0s;
+.footerIcon{
+  width: 70px;
+  transition: .2s;
+  background: transparent;
 }
 
-.icon a:hover {
-  background-color: #4E4E50;
+.footerIcon:hover{
+  transform: scale(1.4);
+  margin-bottom: 1vw;
 }
-/*#mySidefooter a {
+
+
+/*
+
+.image_about2 {
+  flex-basis: 100%;
+  width: 230px;
+  cursor: pointer;            
+  margin: auto;
+  padding-bottom: 1%;
+
+}
+
+.text_about2 {
+  color: white;
+  font: 3px ;
+  overflow: hidden;
+  display: center;
+  text-align: center;
+  margin: auto;
+  padding-top: 0.5%;
+  padding-bottom: 1%;
+  
+}
+
+
+#mySidefooter a {
   position: absolute;
   left: -90px;
   transition: 0.3s;
@@ -334,6 +369,15 @@ html, body {
   margin-top: 10px;
   background-color: #2867B2;
   font-family:Georgia;
+}
+
+.image_about3 {
+  flex-basis: 100%;
+  width: 160px;
+  cursor: pointer;            
+  margin: auto;
+  padding-bottom: 0%;
+
 }
 
 #insta {
@@ -361,7 +405,7 @@ button {
   padding: 8px 10px ;
   background-color: #c3073f;
   border:none;
-  border-radius: 100px;
+  border-radius: 100%;
   cursor: pointer;
   transition: all 0.3 ease 0s;
   color: white;
@@ -370,9 +414,10 @@ button {
   bottom: 1%; 
   right:1%; 
   font-size: 100%;
+
 }
 button:hover {
-  background-color: #4E4E50;
+  background-color: #6F2232;
 }
 
 @media screen and (max-width: 900px) {
