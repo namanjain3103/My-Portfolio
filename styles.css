@@ -282,9 +282,22 @@ html, body {
 
 .projectIcon:hover {
   
-  transform: scale(1.4);
-  
+  transform: scale(1.4); 
 }
+
+.projectIconb{
+  transition: .4s ease-in-out;
+  width:55px;
+  background: transparent;
+  margin-inline: 10px ;
+
+}
+
+.projectIconb:hover {
+  transform: rotate(360deg);
+}
+
+
 
 hr {
 
