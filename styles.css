@@ -574,3 +574,21 @@ hr {
   }
 } 
 
+.buttonb {
+  
+  padding: 8px 10px ;
+  border-color:#c3073f;
+  border-radius: 1%;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+  color:#c3073f;
+  font-size: 1vw;
+  position: relative;
+  width: 10vw;
+  border-width: 1.5px;
+  margin: 1vw auto 2vw auto;
+  font-weight: bolder;
+}
+.buttonb:hover {
+  transform: scale(1.3);
+}
