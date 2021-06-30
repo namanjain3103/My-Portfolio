@@ -20,7 +20,7 @@ html, body {
 /*--Nav Bar--*/
 
 #mySidenav a {
-  position: absolute;
+  position: fixed;
   left: -90px;
   transition: 0.3s;
   padding: 15px;
@@ -307,20 +307,21 @@ hr {
 
 
 .icon{
-  margin: 10px 0px 0px 0px;
-  width: 97vw;
+  margin: 10px 0px 1vw 0px;
+  width: 100vw;
 
 }
 
 .footerIcon{
-  width: 70px;
+  width: 50px;
   transition: .2s;
   background: transparent;
+
 }
 
 .footerIcon:hover{
   transform: scale(1.4);
-  margin-bottom: 1vw;
+
 }
 
 
@@ -414,7 +415,6 @@ button {
   bottom: 1%; 
   right:1%; 
   font-size: 100%;
-
 }
 button:hover {
   background-color: #6F2232;
@@ -456,7 +456,89 @@ button:hover {
 }
 
 
+ .blogImage{
+  width:720px;
+ }
+
+ @media screen and (max-width: 900px) {
+
+  .blogImage{
+      width: 95vw;
+      margin: 2vw 5vw 0vw 5vw;
+  }
+ }
+ .blogText{
+  color: #4E4E50;
+  margin-inline: 10%;
+  margin-block: 4%;
+  text-align: left;
+  font-size: 18px;
+ }
+
+ .paraHeading{
+  color:#c3073f;
+  font-size: 20px;
+ }
+
+ .blogHeading{
+   color: #950740;;
+   margin-top: 5%;
+   font-size: 30px;
+ }
 
 
+.blogHigh{
+  color:#c3073f;
+  font-size: 22px;
+  margin-inline: 10%;
+  text-align: left;
+  margin-top: 3%;
+ }
 
+ .blogText1{
+  color: #4E4E50;
+  margin-inline: 10%;
+  text-align: left;
+  font-size: 18px;
+ }
+
+ .blogNo{
+  color:#6F2232;
+  margin-inline: 10%;
+  text-align: left;
+
+ }
+
+ .typewriter-text2 {
  
+  overflow: hidden;
+  font-family: Courier, monospace;
+  letter-spacing: 2px;
+   animation: typing2 3s steps(13, end) 1.5s normal both, blink2 .75s steps(13, end) infinite;
+  white-space:nowrap;
+  font-size: 25px;
+  background-color: transparent;
+  font-weight: 700;
+  border-right: 4px solid ;
+  margin: 0 auto;
+}
+
+
+@keyframes typing2 {
+  from { 
+      width: 0% 
+  }
+  to { 
+      width: 100% 
+  }
+}
+
+@keyframes blink2 {
+  from { 
+      border-color: transparent 
+  }
+  to { 
+      border-color: #c3073f; 
+  }
+} 
+
