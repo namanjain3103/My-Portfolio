@@ -20,7 +20,7 @@ html, body {
 /*--Nav Bar--*/
 
 #mySidenav a {
-  position: fixed;
+  position: absolute;
   left: -90px;
   transition: 0.3s;
   padding: 15px;
@@ -288,7 +288,7 @@ html, body {
 
 hr {
 
-  width:40px; 
+  width:8%; 
   text-align:center; 
   margin: 0 auto;
   border: 1px solid #6F2232;
@@ -453,6 +453,38 @@ hr {
   .typewriter-text {     
   font-size: 20px;
   }
+}
+
+
+
+
+/*--------BLOG PAGE-----------*/
+
+/*--Nav Bar--*/
+
+
+#homeb {
+  top: 220px;
+  background-color: #c3073f;
+  font-family:Georgia;
+}
+
+#blogb {
+  top: 280px;
+  background-color: #c3073f;
+  font-family:Georgia;
+}
+
+#aboutb {
+  top: 340px;
+  background-color: #c3073f;
+  font-family:Georgia;
+}
+
+#contactb {
+  top: 400px;
+  background-color: #c3073f;
+  font-family:Georgia;
 }
 
 
