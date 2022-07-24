@@ -249,12 +249,12 @@ html, body {
 }
 /*Experience*/
 .experience{
-  margin-bottom: 6%;
+  margin-bottom: 10%;
 }
 /*Projects*/
 
 .projectSection{
-  margin-bottom: 8%;
+  margin-bottom: 6%;
 }
 .text_about3 {
   color: #950740;
@@ -310,8 +310,6 @@ html, body {
   transform: rotate(360deg);
 }
 
-
-
 hr {
 
   width:8%; 
@@ -330,8 +328,6 @@ hr {
   color: #4E4E50;
 }
 
-
-
 .icon{
   margin: 10px 0px 1vw 0px;
   width: 100vw;
@@ -349,83 +345,6 @@ hr {
   transform: scale(1.4);
 
 }
-
-
-/*
-
-.image_about2 {
-  flex-basis: 100%;
-  width: 230px;
-  cursor: pointer;            
-  margin: auto;
-  padding-bottom: 1%;
-
-}
-
-.text_about2 {
-  color: white;
-  font: 3px ;
-  overflow: hidden;
-  display: center;
-  text-align: center;
-  margin: auto;
-  padding-top: 0.5%;
-  padding-bottom: 1%;
-  
-}
-
-
-#mySidefooter a {
-  position: absolute;
-  left: -90px;
-  transition: 0.3s;
-  padding: 10px;
-  padding-inline: 4px;
-  width: 118px;
-  text-decoration: none;
-  font-size: 16px;
-  color: white;
-  border-radius: 0px 10px 10px 0px;
-}
-
-#mySidefooter a:hover {
-  left: 0;
-}
-
-#linkedin {
-  margin-top: 10px;
-  background-color: #2867B2;
-  font-family:Georgia;
-}
-
-.image_about3 {
-  flex-basis: 100%;
-  width: 160px;
-  cursor: pointer;            
-  margin: auto;
-  padding-bottom: 0%;
-
-}
-
-#insta {
-  margin-top: 60px;
-  background-color: rgb(225, 48, 108);
-  font-family:Georgia;
-}
-
-#fb {
-  margin-top: 110px;
-  background-color: #4267B2;
-  font-family:Georgia;
-
-}
-
-#twitter {
-  margin-top: 160px;
-  background-color: #1DA1F2;
-  font-family:Georgia;
-  
-}*/
 
 .buttond {
   
