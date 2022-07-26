@@ -13,6 +13,7 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <meta name="description" content="Hey! I am Naman jain. This is my Portfolio website.">
     <script src="https://kit.fontawesome.com/24a476b79d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -23,7 +24,7 @@
     <a id="home"></a>
     <section class="parallax">
         <div class="text-block">
-            <b style="background-color: transparent; "> Naman </b><b class="r_color">Jain</b>
+            <b style="background-color: transparent;"> Naman </b><b class="r_color">Jain</b>
 
             <p class="typewriter-text">Frontend Developer</p>
 
@@ -44,16 +45,16 @@
 
     <a id="about"></a>
     <section>
-        <div class="imagediv">
-            <img class="image" src="img/photo.png">
+        <div class=" imagediv" data-aos="fade-up">
+            <img class=" image" src="img/photo.png">
         </div>
-        <div class="introduction">
+        <div class="introduction" data-aos="fade-up">
             <div class="name"><b> About </b><b class="r_color">Me</b></div>
             <br>
         </div>
         <div class="text_about">
             <p style="font-weight:900;">
-                <span style="font-size:30px ;"> Hello! &#128075; </span><br>
+                <span style="font-size:30px"> Hello! &#128075; </span><br>
                 I am Naman Jain. I am currently in fourth year, pursuing B.Tech in Computer Science and Engineering from
                 Bharati Vidyapeeth’s College of Engineering, New Delhi. I am the Co-founder and lead at TechShuttle,
                 HackClub.
@@ -63,7 +64,7 @@
         </div>
     </section>
     <!--Education<-->
-    <section class="education">
+    <section class="education" data-aos="fade-up">
         <div class="p_text2"> <b>MY </b><b class="r_color">EDUCATION</b></div>
         <h2 class="text_about3">
             Bharati Vidyapeeth's College of Engineering, New Delhi</h2>
@@ -95,7 +96,7 @@
 
     <!--Experience-->
     <a id="experience"></a>
-    <section class="experience">
+    <section class="experience" data-aos="fade-up">
         <div class="p_text2"> <b>POSITIONS </b><b class="r_color">OF RESPONSIBILITY</b></div>
         <h2 class="text_about3">
             TechShuttle, Hack Club BVP</h2>
@@ -112,7 +113,7 @@
         <hr>
 
     </section>
-    <section class="education">
+    <section class="education" data-aos="fade-up">
         <div class="p_text2"> <b>WORK </b><b class="r_color">EXPERIENCE</b></div>
         <h2 class="text_about3">
             StreetHack, New Delhi</h2>
@@ -121,11 +122,12 @@
         </p>
         <hr>
     </section>
-    <section class="education">
+    <section class="education" data-aos="fade-up">
         <div class="p_text2"> <b>EXTRA </b><b class="r_color">CURRICULAR ACTIVITIES</b></div>
         <h2 class="text_about3">
             C++ Sessions</h2>
-        <p class="projectText"> <b class="edu1"> — Introduction to C++ — </b> <br> Taught CPP through a series of live
+        <p class="projectText"> <b class="edu1"> — Introduction to C++ — </b> <br> Taught CPP through a series of
+            live
             sessions
             to C++.
             <hr>
@@ -137,7 +139,7 @@
     </section>
 
     <!--Projects<-->
-    <section class="projectSection">
+    <section class="projectSection" data-aos="fade-up">
         <a id="projects"></a>
         <div class="p_text2"> <b>MY </b><b class="r_color">PROJECTS</b></div>
 
@@ -255,6 +257,13 @@
         </a>
     </div>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 3000,
+        });
+    </script>
 </body>
 
 </html>

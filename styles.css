@@ -15,6 +15,7 @@ html, body {
   height: 100 ;
   text-align: center;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 /*--Nav Bar--*/
@@ -159,6 +160,7 @@ html, body {
   font-size: 17px;
   padding: 4%;  
   padding-bottom: 10.2%;
+  background: none;
 }
 
 
@@ -169,6 +171,7 @@ html, body {
   margin: 7.5vw;
   margin-top: 4.5vw;
   border-radius: 50%;
+  background: none;
 }
 
 .name{
@@ -189,6 +192,7 @@ html, body {
   width: 55vw;
   text-align: center;
   height: fit-content;
+  background: none;
  
   
 }
