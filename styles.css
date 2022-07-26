@@ -280,6 +280,11 @@ html, body {
   margin-top:1%;
   color: #4E4E50;
 }
+@media screen and (max-width: 600px) {
+  .p_text2{   
+    font-size:50px;
+  }
+}
 
 .projectText{
   color: #4E4E50;
