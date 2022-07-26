@@ -69,7 +69,7 @@ html, body {
 
 .parallax {
   /* The image used */
-  background-image: url("img/bg.png");
+  background-image: url("img/bg.jpg");
 
   /* Set a specific height */
   min-height: 740px; 
